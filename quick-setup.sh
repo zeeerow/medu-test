@@ -96,7 +96,7 @@ npm config set fund false
 npm config set audit false
 
 log "Installing global CLI tools..."
-npm install -g @medusajs/cli @anthropic-ai/kilo 2>/dev/null || true
+npm install -g @medusajs/cli @kilocode/cli 2>/dev/null || true
 
 # ---------- Step 7: Scaffold Medusa backend ----------
 if [ ! -d "$BACKEND_DIR" ]; then
